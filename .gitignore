@@ -1,0 +1,12 @@
+# PyCharm
+.idea/
+.run/
+
+# Visual Studio Code
+.vscode/
+.history
+
+# Vim files:
+*~
+*.swp
+*.swo
