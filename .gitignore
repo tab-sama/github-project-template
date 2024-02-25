@@ -10,3 +10,7 @@
 *~
 *.swp
 *.swo
+
+# Environment variables files
+.env
+.env*
