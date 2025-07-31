@@ -1,4 +1,4 @@
-# PyCharm
+# JetBrain
 .idea/
 .run/
 
@@ -6,11 +6,11 @@
 .vscode/
 .history
 
-# Vim files:
+# Vim
 *~
 *.swp
 *.swo
 
-# Environment variables files
+# Environment variable files
 .env
 .env*
