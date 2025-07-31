@@ -1,0 +1,4 @@
+proto = "0.51.4"
+
+[settings]
+telemetry = false
