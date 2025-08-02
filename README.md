@@ -89,6 +89,7 @@ open source projects.
 
 ### Pull Request Template
 
+- Templates follow the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) format
 - Adjust the checklist items to match your project's requirements
 - Modify the types of changes to reflect your project's structure
 
@@ -98,9 +99,13 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+3. Commit your changes using [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) format:
+   - For new features: `git commit -m 'feat: add some amazing feature'`
+   - For bug fixes: `git commit -m 'fix: resolve issue with login process'`
+   - For documentation: `git commit -m 'docs: update installation instructions'`
+   - For other changes: See the Conventional Commits specification for more types
 4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+5. Open a Pull Request using the provided templates
 
 Please read the [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) for details on our code of conduct and the process for
 submitting pull requests.

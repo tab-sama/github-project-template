@@ -1,10 +1,21 @@
 ---
 name: Bug Fix
 about: Submit a PR that fixes a bug
-title: '[Fix] '
+title: 'fix: '
 labels: ['bug', 'fix']
 assignees: ''
 ---
+
+# Conventional Commits Format
+<!-- This PR title should follow the Conventional Commits specification: -->
+<!-- https://www.conventionalcommits.org/en/v1.0.0/ -->
+<!-- Format: fix(<optional scope>): <description> -->
+<!-- Examples: -->
+<!--   fix(login): handle invalid credentials properly -->
+<!--   fix(api): prevent null pointer exception when response is empty -->
+
+## Scope (optional)
+<!-- What is the scope of this bug fix? (e.g. component or file name) -->
 
 ## Bug Description
 <!-- Provide a clear and concise description of the bug being fixed -->
@@ -31,6 +42,12 @@ assignees: ''
 - [ ] Manually verified the fix with the following steps:
   <!-- List your verification steps -->
 
+## Breaking Changes?
+<!-- Will this change cause existing functionality to not work as expected? -->
+<!-- If yes, please describe the impact and migration path for existing applications -->
+- [ ] Yes (please describe below)
+- [ ] No
+
 ## Potential Risks
 <!-- Describe any potential risks that this change might introduce -->
 <!-- If there are no risks, state "No known risks" -->
@@ -43,6 +60,7 @@ assignees: ''
 - [ ] I have added tests that prove my fix is effective
 - [ ] New and existing unit tests pass locally with my changes
 - [ ] Any dependent changes have been merged and published in downstream modules
+- [ ] My PR title follows the Conventional Commits format
 
 ## Additional Notes
 <!-- Add any other context about the PR here -->

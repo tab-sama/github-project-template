@@ -1,10 +1,22 @@
 ---
 name: Feature Implementation
 about: Submit a PR that implements a new feature
-title: '[Feature] '
+title: 'feat: '
 labels: ['enhancement']
 assignees: ''
 ---
+
+# Conventional Commits Format
+<!-- This PR title should follow the Conventional Commits specification: -->
+<!-- https://www.conventionalcommits.org/en/v1.0.0/ -->
+<!-- Format: feat(<optional scope>): <description> -->
+<!-- Examples: -->
+<!--   feat(auth): add login with Google option -->
+<!--   feat(ui): implement dark mode -->
+<!--   feat(api): add endpoint for user preferences -->
+
+## Scope (optional)
+<!-- What is the scope of this feature? (e.g. component or file name) -->
 
 ## Feature Description
 <!-- Provide a clear and concise description of the feature being implemented -->
@@ -35,6 +47,12 @@ assignees: ''
 - [ ] Added/updated API documentation
 - [ ] Added/updated examples
 
+## Breaking Changes?
+<!-- Will this feature cause existing functionality to not work as expected? -->
+<!-- If yes, please describe the impact and migration path for existing applications -->
+- [ ] Yes (please describe below)
+- [ ] No
+
 ## Checklist
 - [ ] My code follows the style guidelines of this project
 - [ ] I have performed a self-review of my own code
@@ -43,6 +61,7 @@ assignees: ''
 - [ ] I have added tests that prove my feature works
 - [ ] New and existing unit tests pass locally with my changes
 - [ ] Any dependent changes have been merged and published in downstream modules
+- [ ] My PR title follows the Conventional Commits format
 
 ## Additional Notes
 <!-- Add any other context about the PR here -->
