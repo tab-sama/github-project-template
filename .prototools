@@ -1,4 +1,5 @@
 proto = "0.51.4"
+moon = "1.40.4"
 
 [settings]
 telemetry = false
