@@ -11,6 +11,7 @@ open source projects.
 - **Language Agnostic**: Works for any programming language or project type
 - **Community Health Files**: Includes standard files for project governance
 - **GitHub Integration**: Pre-configured issue and pull request templates
+- **Development Tools**: Pre-configured development workflow tools including lefthook, moon, moon proto, and cocogitto
 - **Customizable**: Easy to adapt to your specific project needs
 
 ## 📋 Included Files
@@ -21,6 +22,13 @@ open source projects.
 - **LICENSE**: Apache License 2.0 - defines the terms under which the project can be used
 - **CODE_OF_CONDUCT.md**: Defines standards for how to engage in the project community
 - **SECURITY.md**: Outlines security procedures and how to report vulnerabilities
+- **.lefthook.yml**: Configuration for lefthook Git hooks manager
+- **.prototools**: Configuration for proto tool version manager and plugin definitions
+
+### Development Tools (.moon directory)
+
+- **.moon/workspace.yml**: Moon monorepo build system configuration
+- **.moon/plugins/cog.yml**: Proto plugin configuration for cocogitto installation
 
 ### GitHub Integration (.github directory)
 
@@ -31,6 +39,32 @@ open source projects.
     - `ISSUE_TEMPLATE.md`: General issue template for other types of issues
 - **Pull Request Template**:
     - `PULL_REQUEST_TEMPLATE.md`: Template for submitting changes to the project
+
+## 🔧 Development Tools
+
+This template includes several pre-configured development tools to improve code quality and streamline workflows:
+
+### Proto (Moon Proto)
+- **Purpose**: Tool version manager that ensures consistent tool versions across different environments
+- **Configuration**: `.prototools` file specifies versions for moon, cocogitto, and lefthook
+- **Benefits**: Eliminates "works on my machine" issues by pinning exact tool versions
+
+### Moon
+- **Purpose**: Build system and monorepo management tool designed for modern development workflows
+- **Configuration**: `.moon/workspace.yml` configures the workspace to manage projects in `apps/*` and `libs/*` directories
+- **Benefits**: Provides efficient task running, dependency management, and project organization for monorepos
+
+### Lefthook
+- **Purpose**: Git hooks manager that runs commands automatically during Git operations
+- **Configuration**: `.lefthook.yml` sets up hooks to run cocogitto verification on commit messages and checks before pushing
+- **Benefits**: Enforces code quality standards and conventional commit formats automatically
+
+### Cocogitto
+- **Purpose**: Conventional commits tool that enforces commit message standards and generates changelogs
+- **Configuration**: Installed via proto plugin (`.moon/plugins/cog.yml`) and integrated with lefthook hooks
+- **Benefits**: Ensures consistent commit history and enables automated semantic versioning and changelog generation
+
+These tools work together to create a robust development environment with automated quality checks, consistent tooling, and standardized commit practices.
 
 ## 🛠️ How to Use This Template
 
