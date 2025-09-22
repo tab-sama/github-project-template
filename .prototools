@@ -1,4 +1,8 @@
 moon = "1.40.4"
+cog = "6.3.0"
+
+[plugins]
+cog = "file://.moon/plugins/cog.yml"
 
 [settings]
 telemetry = false
