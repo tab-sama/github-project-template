@@ -1,8 +1,10 @@
 moon = "1.40.4"
 cog = "6.3.0"
+lefthook = "1.13.0"
 
 [plugins]
 cog = "file://.moon/plugins/cog.yml"
+lefthook = "https://raw.githubusercontent.com/ageha734/proto-plugins/refs/heads/master/toml/lefthook.toml"
 
 [settings]
 telemetry = false
