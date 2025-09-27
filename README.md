@@ -66,6 +66,42 @@ This template includes several pre-configured development tools to improve code 
 
 These tools work together to create a robust development environment with automated quality checks, consistent tooling, and standardized commit practices.
 
+## ⚡ Installation
+
+This template includes development tools that can be installed to enhance your development workflow. You have two options for installation:
+
+### Automated Installation
+
+The easiest way to set up all development tools is to use the provided installation script:
+
+```bash
+./scripts/install.sh
+```
+
+This script will:
+1. Install [proto](https://moonrepo.dev/proto) (Moon's tool version manager)
+2. Install all configured tools (moon, cocogitto, lefthook) using `proto use`
+3. Set up Git hooks with lefthook
+
+### Manual Installation
+
+If you prefer to install tools manually or need more control over the process:
+
+1. **Install proto**:
+   ```bash
+   bash -c "$(curl -fsSL https://moonrepo.dev/install/proto.sh)"
+   ```
+
+2. **Install configured tools**:
+   ```bash
+   proto use
+   ```
+
+3. **Set up Git hooks**:
+   ```bash
+   lefthook install
+   ```
+
 ## 🛠️ How to Use This Template
 
 1. **Create a New Repository**:
