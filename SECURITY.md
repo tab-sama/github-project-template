@@ -31,7 +31,7 @@ security vulnerability, please follow these steps:
    security vulnerabilities
    through [GitHub's private vulnerability reporting feature](https://docs.github.com/en/code-security/security-advisories/guidance-on-reporting-and-writing/privately-reporting-a-security-vulnerability).
 3. If you're unable to use GitHub Security Advisories, you may email your
-   findings to [security@backtick.group](mailto:security@backtick.group) as an
+   findings to [tabmadi@proton.me](mailto:tabmadi@proton.me) as an
    alternative.
 
 ### What to Include
@@ -105,8 +105,8 @@ We are transparent about the current limitations of our security measures:
 
 For security-related inquiries or to report a vulnerability, please contact:
 
-- Security Email: [security@backtick.group](mailto:security@backtick.group)
-- Project Maintainer: [tab@backtick.group](mailto:tab@backtick.group)
+- Security Email: [tabmadi@proton.me](mailto:tabmadi@proton.me)
+- Project Maintainer: [tabmadi@proton.me](mailto:tabmadi@proton.me)
 
 *Note: Replace these with your actual contact information.*
 
@@ -120,4 +120,4 @@ security vulnerabilities:
 ---
 
 This security policy is a living document and may be updated or revised as
-needed. Last updated: 2025-07-31.
+needed. Last updated: 2026-05-16.
